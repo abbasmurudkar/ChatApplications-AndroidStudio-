@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ZenChat </string>
+    <string name="second_phase">To ChitChat</string>
+    <string name="btn_name1">Sigin In</string>
+    <string name="login">Login</string>
+    <string name="btn_name3">Register</string>
+    <string name="btn_name2">Create New Account</string>
+    <string name="txt">HELLO THERE,\nWELCOME BACK</string>
+    <string name="Email">Email</string>
+    <string name="Psw">Password</string>
+    <string name="forget_psw">Dont Remember your password? SignUp</string>
+    <string name="login_with">Or Login With</string>
+    <string name="Fb">Facebook</string>
+    <string name="google">Google</string>
+    <string name="register">Welcome</string>
+    <string name="User_Name">Email</string>
+    <string name="Ph_No">Phone Number</string>
+    <string name="Cp_Psw">Name</string>
+    <string name="default_web_client_id" translatable="false">168193420937-qlq2qto8eln8uuahf5sgkan0ftd9tlr6.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+    <string name="login_info">Do You Have Account? Login</string>
+    <string name="quotes">Where words Fail, Emojis Speak</string>
+    <string name="quotes2">SignUp To Start Your New Journey</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--    Fragments-->
+    <string name="settings">Settings</string>
+
+
+    <!--    Navigation-->
+    <string name="Home">Home</string>
+    <string name="UserProfile">UserProfile</string>
+    <string name="UserSettings">UserSettings</string>
+    <string name="Aichat">AI Chat</string>
+    <string name="Share">Share</string>
+    <string name="Rating">Rating</string>
+    <string name="Communication">Communication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

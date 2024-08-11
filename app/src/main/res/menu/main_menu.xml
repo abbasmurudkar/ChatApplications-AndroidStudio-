@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/side_home"
+            android:title="@string/Home"/>
+        <item android:id="@+id/userprofile"
+            android:icon="@drawable/side_user"
+            android:title="@string/UserProfile"/>
+        <item android:id="@+id/UserSetting"
+            android:icon="@drawable/side_settings"
+            android:title="@string/UserSettings"
+            />
+        <item android:id="@+id/Ai"
+            android:icon="@drawable/aichat"
+            android:title="@string/Aichat"/>
+    </group>
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:title="@string/Communication">
+            <menu>
+                <item
+                    android:id="@+id/communication"
+                    android:icon="@drawable/side_share"
+                    android:title="@string/Share"/>
+                <item android:id="@+id/Rate"
+                    android:icon="@drawable/side_star"
+                    android:title="@string/Rating"/>
+            </menu>
+
+        </item>
+
+    </group>
+    <group>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/side_logout"
+            android:title="Logout"></item>
+
+    </group>
+
+</menu>

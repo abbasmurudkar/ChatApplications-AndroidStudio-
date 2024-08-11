@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.project.HomeFragment"
+        android:label="@string/Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/userprofile"
+        android:name="com.example.project.UserProfileFragment"
+        android:label="@string/UserProfile"
+        tools:layout="@layout/fragment_user_profile" />
+    <fragment
+        android:id="@+id/UserSetting"
+        android:name="com.example.project.UserSettingsFragment"
+        android:label="@string/UserSettings"
+        tools:layout="@layout/fragment_user_settings" />
+    <fragment
+        android:id="@+id/Ai"
+        android:name="com.example.project.AichatFragment"
+        android:label="@string/Aichat"
+        tools:layout="@layout/fragment_aichat" />
+</navigation>
